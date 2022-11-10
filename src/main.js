@@ -3,8 +3,14 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+// 加载 Vant from 核心组件库
+import Vant from 'vant'
 // 加载全局样式
 import './styles/index.less'
+
+// 注册使用 Vant组件库
+import 'vant/lib/index.css'
+Vue.use(Vant)
 
 Vue.config.productionTip = false
 
