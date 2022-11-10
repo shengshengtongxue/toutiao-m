@@ -73,3 +73,9 @@
 .toutiao-wenda:before {
   content: "\e615";
 }
+#page-nav-bar {
+  background-color: #3296fa;
+}
+#page-nav-bar .van-nav-bar__title {
+  color: #fff;
+}
